@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">APP DE PREVISÃO DO TEMPO</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Sobre</string>
+    <string name="tenha_acesso_previs_o_mais_atualizada_com_um_visual_moderno" />
+    <string name="app_para_previs_o_do_tempo" />
+
+
+</resources>

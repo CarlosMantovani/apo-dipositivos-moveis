@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@drawable/bg_intro_total">
+
+    <ImageView
+        android:id="@+id/ivSun"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sun"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="48dp"
+        android:contentDescription="sun" />
+
+    <TextView
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:text="App Para Previsão Do Tempo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:text="Tenha acesso previsão mais atualizada com um visual moderno"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="20sp"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnEnter"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="entrar"
+        android:textColor="#FFF"
+        android:layout_marginTop="100dp"/>
+</LinearLayout>
